@@ -1,0 +1,33 @@
+.navbar{
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.navbar-home-con {
+  display: flex;
+  width: 6.625rem;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  align-items: flex-start;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+  background: #3b3386;
+}
+
+.rent-it {
+  color: #fff;
+  text-align: center;
+  font-family: Sora;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.it{
+  font-weight: 300;
+  margin-left: 4px;
+}
