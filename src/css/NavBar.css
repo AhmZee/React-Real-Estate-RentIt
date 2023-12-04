@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
   display: flex;
   width: 90%;
   justify-content: space-between;
@@ -27,7 +27,45 @@
   line-height: normal;
 }
 
-.it{
+.it {
   font-weight: 300;
   margin-left: 4px;
+}
+
+.navbar .navbar-pages .pages {
+  display: none;
+}
+
+@media (min-width: 650px) {
+  .navbar .navbar-pages {
+  }
+
+  .navbar .navbar-pages .pages {
+    width: 220px;
+    display: flex;
+    list-style: none;
+    font-size: 0.6rem;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+  }
+
+  .navbar .navbar-pages .login{
+    padding: 7px 10px;
+    border: 1px solid #3b3386;
+    background: #3b3386;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .navbar .navbar-pages .posting{
+    padding: 7px 10px;
+    border: 1px solid #3b3386;
+    border-radius: 5px;
+    color: #3b3386;
+  }
+
+  .navbar .navbar-pages img {
+    display: none;
+  }
 }
